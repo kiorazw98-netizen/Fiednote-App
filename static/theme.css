@@ -1,0 +1,110 @@
+:root {
+  --green: #356acb;
+  --green-dark: #2855a8;
+  --green-pale: #eaf0fc;
+  --red: #c74752;
+}
+
+.main {
+  background: var(--red);
+}
+
+.stat-card,
+.panel,
+.table-card,
+.report-stat {
+  background: #41434a;
+  border-color: #55575e;
+  color: #f4f4f5;
+}
+
+.topbar {
+  background: #41434a;
+  border-color: #55575e;
+}
+
+.stat-top,
+.panel-heading p,
+.table-toolbar .toolbar-title,
+.report-stat span,
+.expense-bar-label,
+.expense-bar-value,
+.table-footer,
+td {
+  color: #d0d1d5;
+}
+
+.stat-value,
+.panel-heading h2,
+.report-stat strong,
+td strong {
+  color: #fff;
+}
+
+th {
+  color: #dedfe2;
+  background: #4a4c53;
+  border-color: #55575e;
+}
+
+td,
+.stock-row {
+  border-color: #55575e;
+}
+
+.stock-info strong {
+  color: #f4f4f5;
+}
+
+.stock-info span {
+  color: #c4c6cb;
+}
+
+.chart-wrap canvas {
+  filter: brightness(1.18);
+}
+
+.brand-dot {
+  color: var(--red);
+}
+
+.nav-link.active {
+  color: var(--green);
+  background: var(--green-pale);
+}
+
+.nav-link.active .nav-icon,
+.help-icon,
+.stat-icon {
+  color: var(--green);
+}
+
+.help-icon,
+.stat-icon {
+  background: var(--green-pale);
+}
+
+.nav-link[data-page="expenses"].active {
+  color: var(--red);
+  background: #fbecee;
+}
+
+.nav-link[data-page="expenses"].active .nav-icon,
+.badge.warning,
+.stock-count {
+  color: var(--red);
+}
+
+.badge.warning {
+  background: #fbecee;
+}
+
+.avatar,
+.top-avatar {
+  background: #e4ebfa;
+  color: var(--green);
+}
+
+.expense-bar-fill {
+  background: var(--green);
+}
